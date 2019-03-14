@@ -40,11 +40,16 @@
 
                     <TextView
                         android:id="@+id/titletext"
-                        android:layout_width="138dp"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
+                        android:layout_width="149dp"
+                        android:layout_height="34dp"
+                        android:layout_alignEnd="@+id/developerbutton"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="75dp"
+                        android:layout_marginEnd="125dp"
+                        android:layout_toEndOf="@+id/profilebutton"
                         android:text="Sanskriti'19"
-
+                        android:elevation="10dp"
+                        android:textAlignment="center"
                         android:textAppearance="@style/Widget.AppCompat.ActionBar"
                         android:textColor="@android:color/background_dark"
                         android:textSize="18dp" />
