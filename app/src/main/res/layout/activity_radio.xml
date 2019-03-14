@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RadioActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/cloud_rad"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Play the good life :)"
+        android:textAlignment="center"
+        android:textColor="#03A9F4"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Song Name"
+        android:id="@+id/song_name"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/rect"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Movie/Album (optional)"
+        android:id="@+id/movie"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rect"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="Artist (optional)"
+        android:id="@+id/Artist"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rect"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:textColor="#F44336"
+        android:id="@+id/buttonrad"
+        android:background="@drawable/button"
+        android:padding="20dp"
+        android:textSize="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Send To Us (10 remaining)"/>
+</LinearLayout>
